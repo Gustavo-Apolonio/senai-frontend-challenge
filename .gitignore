@@ -1,7 +1,22 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
 
-# Created by https://www.toptal.com/developers/gitignore/api/node,visualstudio,visualstudiocode,windows
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,visualstudio,visualstudiocode,windows
+# Created by https://www.toptal.com/developers/gitignore/api/linux,node,react,visualstudio,visualstudiocode,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,node,react,visualstudio,visualstudiocode,windows
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### Node ###
 # Logs
@@ -142,6 +157,19 @@ dist
 
 # SvelteKit build / generate output
 .svelte-kit
+
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+node_modules
+
+*.sublime*
+
+psd
+thumb
+sketch
 
 ### VisualStudioCode ###
 .vscode/*
@@ -424,7 +452,6 @@ _pkginfo.txt
 # Others
 ClientBin/
 ~$*
-*~
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
@@ -578,7 +605,7 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
-# End of https://www.toptal.com/developers/gitignore/api/node,visualstudio,visualstudiocode,windows
+# End of https://www.toptal.com/developers/gitignore/api/linux,node,react,visualstudio,visualstudiocode,windows
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
